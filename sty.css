@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+
+	font-family:apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-image:url(n2.jpg);
+	
+	background-size:contain;
+	background-attachment:fixed;
+    
+}
+
+.class1, .class2{
+
+	font-family: 'Kaushan Script', cursive;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+}  
+
+/*header settings*/
+
+#cabecera{
+    
+    text-align:center;
+    background-image:url(n.jpg);
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    
+    color:white;
+    height:1100px;
+    text-shadow: 2px 2px 3px black,3px 3px 3px silver;
+}
+
+.menu{
+    text-shadow:2px 2px 3px rgb(255,251,173),3px 3px 3px #ff8b0f;
+    background-color:rgba(0,0,0,0.1);
+    position:fixed;
+    width:100%;
+    z-index:100;
+	
+}
+
+.menu li{
+
+    display:inline-block;
+    border-right:1px solid rgba(100, 100, 100, 0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:5px;
+    padding:25px 15px;
+    display:block;
+}
+
+.cabecera_texto{
+    
+    padding:100px 0px;
+}
+
+.cabecera_texto h1{
+    font-weight:bold;
+    font-size:6em;
+    letter-spacing:0px;
+}
+
+.class1:hover{
+
+    transform: scale(2) translate(0%,33%);
+    transition:transform 0.5s ease 0.01s;
+    
+	
+}
+
+
+#iden0{
+    border-right:none;
+    
+}
+
+.sub2{
+	font-size:3em;
+	text-shadow: 2px 2px 3px black,3px 3px 3px silver;
+	font-family: 'Kaushan Script', cursive;
+    color:#ff8b0f;
+}
+
+footer{
+    font-size:1em;
+    margin:5px;
+    text-align:center;
+    color:white;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:15px;
+}
+
+.legal{
+	text-shadow:2px 2px 3px rgb(255,251,173),3px 3px 3px #ff8b0f;
+}
+
+.poster1{
+
+	width:375px;
+	height:560px;
+	opacity:1;
+}
+
+.class2{
+	color:white;
+	font-family: 'Kaushan Script', cursive;
+    color:White;
+	text-decoration:none;
+	text-shadow: 2px 2px 3px black,3px 3px 3px silver;
+	border-bottom:1px solid rgba(100, 100, 100, 0.3);
+}
+
+
+
+#container{
+	position:absolute;
+	width:30%;
+	height:80%;
+	left:30%;
+	top:75%;
+	
+}
+
+.cabecera_texto h1{
+    font-weight:bold;
+    font-size:6em;
+    letter-spacing:0px;
+}
+
+.none_v{
+	display:none;
+}
+	
+
+
+@media(min-width:1440px) and (min-height:1140px){
+		body{
+			height:1140px;
+		}
+}
+		
+
+@media(min-width:2560px) and (min-height:2280px){
+		
+
+		.poster1{
+			width:30%;
+			height:40%;
+		}
+
+		.cabecera_texto h1{
+			font-size:9em;
+		}
+
+		.sub2{
+			font-size:6em;
+		}
+
+		.menu{
+			font-size:3em;
+		}
+
+		footer{
+			font-size:3em;
+		}
+}
+
+
+
+@media(min-width:767px){
+#menuBars{
+	display:none;
+}
+
+.menu1{
+	display:none;
+}
+
+#check{
+	display:none;
+}
+#cabecera{
+	background-position:0px 0px 0px -100px;
+	background-size:100% 125%,cover;
+	
+}
+
+.poster{
+	width:20%;
+	height:20%;
+}
+
+}
+
+
+
+
+
+@media(max-width:390px){
+	.cabecera_texto h1{
+		font-size:5em;
+	}
+	
+}
+
+
+
+@media(max-width:320px){
+	.cabecera_texto h1{
+		font-size:4em;
+	}
+}
+
+
+
+@media(max-width:767px){
+
+.menu{
+	display:none;
+}
+
+   .poster1{
+	width:240px;
+	height:384px;
+	cursor:crosshair;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#menuBars{
+	font-size:3em;
+	padding:10px;
+	cursor:pointer;
+	position:fixed;
+	width:100%;
+	height:50px;
+	color:white;
+	background-color:black;
+	opacity:0.3;
+}
+
+.menu1{
+	
+	position:fixed;
+	top:0px;
+	left:-240px;
+	bottom:0px;
+	width:200px;
+	background-color:black;
+	color:white;
+	padding:20px;
+	transition:0.5s;
+	border-radius:0px 35px 35px 0px;
+	opacity:0.9;
+    z-index:100;
+}
+
+.menu1 li{
+	list-style:none;
+	font-size:2em;
+	margin-bottom:20px;
+	
+	
+}
+
+#check{
+	display:none;
+}
+
+#check:checked + nav.menu1{
+	left:0px;
+}
+
+.menu1 > label{
+	font-size:2em;
+	display:block;
+	margin-bottom:20px;
+	text-align:right;
+	cursor:pointer;
+	
+}
+
+.poster{
+	width:10%;
+	height:10%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
