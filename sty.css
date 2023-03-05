@@ -124,8 +124,7 @@ footer{
 	text-decoration:none;
 	text-shadow: 2px 2px 3px black,3px 3px 3px silver;
 	border-bottom:1px solid rgba(100, 100, 100, 0.3);
-	font-size:.5rem;
-	line-height: .5;
+	font-size:1rem;
 }
 
 
@@ -266,7 +265,7 @@ footer{
 	top:0px;
 	left:-240px;
 	bottom:0px;
-	width:200px;
+	width:100px;
 	background-color:black;
 	color:white;
 	padding:20px;
@@ -279,7 +278,7 @@ footer{
 .menu1 li{
 	list-style:none;
 	font-size:2em;
-	margin-bottom:20px;
+	margin-bottom:-2px;
 	
 	
 }
