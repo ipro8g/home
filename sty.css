@@ -121,10 +121,11 @@ footer{
 .class2{
 	color:white;
 	font-family: 'Kaushan Script', cursive;
-    color:White;
 	text-decoration:none;
 	text-shadow: 2px 2px 3px black,3px 3px 3px silver;
 	border-bottom:1px solid rgba(100, 100, 100, 0.3);
+	font-size:.5rem;
+	line-height: .5;
 }
 
 
